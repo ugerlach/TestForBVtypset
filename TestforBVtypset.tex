@@ -1,0 +1,63 @@
+\documentclass{ximera}
+
+\title{Infinite Dimensional Vector Spaces}
+
+\begin{document}
+\begin{abstract}
+A short description
+\end{abstract}
+\maketitle
+The process of extending the algebraic and geometrical methods of
+linear algebra from matrices to differential or integral operators
+consists of going from a finite dimensional vector space, typically
+$R^n$, to an infinite dimensional vector space, typically a function
+space.
+
+However, a vector space of functions has certain idiosyncrasies
+precisely because its dimension is infinite.  These peculiarities are
+so important that we must develop the framework in which they arise.
+
+One of the most useful, if not the most useful, framework is the
+theory of \emph{Hilbert spaces}, the closest thing to the familiar
+finite-dimensional Euclidean spaces. In passing we shall also mention
+\emph{metric spaces} and \emph{Banach spaces}.
+
+We shall see that infinite dimensional vector spaces are a powerful
+way of organizing the statement and solution of boundary value
+problems.  In fact, these spaces are the tool of choice whenever the
+linear superposition principle is in control. This happens in signal
+processing, in quantum mechanics, electromagnetic wave theory, and
+elsewhere.
+
+The most notable peculiarity associated with infinite dimensional vector 
+spaces is the issue of \emph{completeness}.
+
+From the viewpoint of physics and engineering, completeness is an
+issue of precision in measurements.  We would like to have at our
+disposal mathematical concepts which are such that they are capable of
+mathematizing natural phenomenona no matter how advanced the technolgy
+of measuring their properties.
+
+One of the most useful infinite dimensional vector spaces is Hilbert space.  
+To define it, we must have at our disposal the constellation of concepts on 
+which it is based.  Let us identify the components of the constellation.
+
+\section{Inner Product Spaces}\label{IPS}\index{inner product space}
+
+An \emph{inner product space} is a vector space, say $\cal H$, together with 
+a complex bilinear function $\langle~~,~~\rangle$ having the following 
+properties:
+
+\begin{tabbing}
+(i)~~~\= $\langle f,g\rangle = \overline{\langle g,f\rangle}$ \=~~\= 
+where $f,g \in\cal H$\\
+(ii)~~~\> $\langle f,\alpha_1g_1+\alpha_2g_2\rangle = \alpha_1\langle f,g_1
+\rangle +\alpha_2\langle f,g_2\rangle$\\
+~\> where $\alpha_1$ and $\alpha_2$ are complex numbers\\
+(iii)~~~\> $\langle f,f\rangle >0$ if $f\not= \vec 0$\\
+~\> and $\langle f,f\rangle =0\Leftrightarrow f=\vec 0$ \quad .
+\end{tabbing}
+
+
+
+\end{document}
